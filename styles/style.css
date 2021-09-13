@@ -1,5 +1,39 @@
+/* Styling of the header links*/
+header {
+  margin-bottom: 100px;
+}
+.header {
+  position: fixed;
+  left: 0;
+  top: 0;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
 #SignIn {
   background-color: #4285f4;
   color: white;
   border: 3px solid #4285f4;
+}
+
+/* Styling of the body*/
+
+.center {
+  text-align: center;
+  display: block;
+
+  margin-top: 200px;
+}
+
+/* Footer Styling */
+footer {
+  margin-top: 25;
+}
+.footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
 }
